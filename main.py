@@ -268,7 +268,6 @@ def main():
         st.subheader("Welcome User")
 
         email = st.sidebar.text_input("Email")
-        # check(email)
         username = st.sidebar.text_input("User Name")
         password = st.sidebar.text_input("Password", type='password')
 
